@@ -1,0 +1,215 @@
+@import url(https://fonts.googleapis.com/css?family=Lora);
+.navigation-links, .nav-tabs li.active a, .nav-tabs li.active a:focus, .nav-tabs li.active a:hover {
+  color: #000;
+  cursor: default;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-bottom-color: transparent; }
+
+//.box-style, .about, .offer, .projects .row {
+ // box-shadow: 5px 5px 15px #000; }
+
+body {
+  background: url(../images/zaklad/jpg_1.jpg) 0/cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  color: #000;
+  font-family: "Lora", serif; 
+  padding-top: 30px;
+}
+
+section {
+  margin: 20px 0;
+}
+
+h2 {
+  margin-bottom: 20px; }
+
+.container, .container-fluid {
+  background-color: #fff;
+  padding: 20px; }
+
+[class^="col-"] {
+  margin: 10px 0;
+  padding: 0 25px; 
+}
+
+/*	====== CONTACT-INFO ======  */
+.contact-info {
+	background-color: rgba(255, 255, 255, 0.9);
+	height: 30px;
+}
+.contact-info:hover p {
+	background: #AAFFFF;
+	font-weight: 700;
+}
+.contact-info p {
+	line-height: 30px;
+	transition: 0.7s;
+}
+
+/* ======= NAV BAR ======= */
+.jumbotron {
+	background: transparent;
+	color: white;
+	padding: 0;
+	margin: 0 auto;
+}
+.jumbotron .row{
+	background: rgba(255, 255, 255, 0.5);
+}
+.jumbotron img {
+	padding: 10px;
+}
+.jumbotron .btn {
+	text-transform: uppercase;
+	color: #fff;
+	transition: 0.3s;
+}
+.jumbotron .btn:hover {
+	background: rgba(0, 0, 0, 0.5);
+}
+.jumbotron p {
+	background: rgba(0, 0, 0, 0.8);
+	padding: 0;
+	margin: 0 auto;
+}
+
+/*  ====== ABOUT ======  */
+.about {
+  margin: 20px 0;
+}
+.about .glyphicon {
+  font-size: 80px;
+  border: 3px #000 solid;
+  border-radius: 50%;
+  padding: 25px;
+}
+
+/*	====== SLOGANS ======  */
+.slogans {
+	margin: 20px 0;
+}
+.slogans i {
+  font-size: 50px;
+  margin: 20px 0; }
+
+/*	======= Carousel img ======  */
+.gallery {
+  margin-top: 100px 0;
+}
+
+/*  ======= GALLERY ======  */
+.gallery-salon img{
+  width: 100%;
+}
+
+/*  ====== OFFER ======  */
+.offer {
+  min-height: 650px;
+}
+.offer ul {
+  list-style-type: none;
+}
+.offer ul li {
+  display: inline-block;
+  text-align: center;
+  margin: 3px;
+}
+.offer ul li a{
+  text-decoration: none;
+}
+.offer ul li a p{
+  margin-top: 10px;
+  font-size: 15px;
+  border: 2px #000 solid;
+  width: 150px;
+  height: 150px;
+  line-height: 150px;
+}
+.offer ul li a p:hover{
+  background: rgba(200, 200, 200, 0.6);
+}
+
+/*  ====== CONTACT ======  */
+.contact {
+  height: 600px;
+}
+
+
+/*	====== FOOTER ======  */
+.footer-bar {
+  background: rgba(0, 0, 0, 0.9);
+  color: #fff;
+}
+.footer-bar i {
+  color: #000;
+}
+.footer {
+  background: #222222;
+  color: #fff; }
+  .footer p {
+    text-align: justify;
+    margin-right: 50px; }
+  .footer i {
+    margin: 10px; }
+  .footer img {
+    width: 100%; }
+
+.copyright {
+  background: rgba(0, 0, 0, 0.9);
+  color: #fff;
+  margin-bottom: 0px; }
+  .copyright p {
+    padding: 5px;
+    margin-bottom: 0px; }
+
+/*	===== MEDIA QUERIES =====  */
+@media (max-width: 768px) {
+
+  .navbar-brand {
+    float: none;
+    text-align: center;
+    display: block;
+    background-color: #bf6262; }
+
+  .nav-tabs > li {
+    width: 100%;
+    text-align: center; }
+
+  .footer p {
+    text-align: justify;
+    margin-right: 0; }
+
+  .footer h2 {
+    text-align: center; } 
+.offer ul {
+  column-count: 2;
+}
+.offer ul li {
+  display: block;
+}
+.offer ul li a p{
+  margin-top: 10px;
+  font-size: 15px;
+  border: none;
+  width: auto;
+  height: auto;
+  line-height: normal;
+  text-align: left;
+}
+
+  [class^="col-"] {
+    margin: 0;
+    padding: 3px; }}
+@media (min-width: 992px) and (max-width: 1200px) {
+
+  .footer i {
+    margin: 10px 0; } 
+
+  [class^="col-"] {
+    margin: 0;
+    padding: 3px; }}
+
+/*# sourceMappingURL=style.css.map */
